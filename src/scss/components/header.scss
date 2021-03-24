@@ -1,0 +1,37 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 50%;
+
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+
+  max-width: 1200px;
+  margin-left: -600px;
+
+  padding: 25px 0;
+}
+
+.header__menu {
+  margin: 0 0 0 88px;
+}
+
+$headerSearchField-height: 25px;
+
+.header__search-field {
+  width: 248px;
+  height: $headerSearchField-height;
+  margin-left: auto;
+  padding: 0 10px;
+
+  color: #757575;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+
+  background: #3c3b3d;
+  border: 0;
+
+  border-radius: $headerSearchField-height / 2;
+}
