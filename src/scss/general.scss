@@ -32,10 +32,12 @@ button {
 }
 
 h1 {
+  margin: 0;
+
   font-size: 60px;
   text-transform: uppercase;
 
-  @media screen and (max-width: 1199px) {
+  @include media-phone {
     font-size: 30px;
   }
 }
@@ -44,7 +46,7 @@ h2 {
   font-size: 38px;
   text-transform: uppercase;
 
-  @media screen and (max-width: 1199px) {
+  @include media-phone {
     font-size: 18px;
   }
 }

@@ -1,8 +1,9 @@
-@import 'variables.scss';
-@import 'general.scss';
+@import 'variables';
+@import 'mixins';
+@import 'general';
 
-@import 'components/branding.scss';
-@import 'components/form.scss';
-@import 'components/header.scss';
-@import 'components/hero.scss';
-@import 'components/menu.scss';
+@import 'components/branding';
+@import 'components/form';
+@import 'components/header';
+@import 'components/hero';
+@import 'components/menu';

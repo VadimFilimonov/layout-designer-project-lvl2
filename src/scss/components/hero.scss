@@ -11,18 +11,37 @@
   background-image: url('../../images/banner.png');
   background-position: center;
   background-size: cover;
-}
 
-.hero__title {
-  margin: 0;
-
-  font-size: 60px;
+  @include media-phone {
+    padding-top: 250px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
 
 .hero__subtitle {
   margin: 0 0 32px;
+
+  @include media-phone {
+    width: 100%;
+    margin: 0 0 16px;
+  }
 }
 
 .hero__description {
   margin-bottom: 16px;
+
+  @include media-phone {
+    width: 100%;
+
+    font-size: 16px;
+  }
+}
+
+.hero__form {
+  width: 570px;
+
+  @include media-phone {
+    width: 100%;
+  }
 }

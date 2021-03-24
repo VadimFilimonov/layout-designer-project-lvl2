@@ -1,11 +1,13 @@
 extends:
   - stylelint-config-standard
   - stylelint-config-rational-order
+  - stylelint-config-sass-guidelines
   - stylelint-prettier/recommended
 
 plugins:
   - stylelint-order
   - stylelint-config-rational-order/plugin
+  - stylelint-scss
   - stylelint-prettier
 
 rules:
@@ -14,3 +16,15 @@ rules:
   plugin/rational-order:
     - true
     - empty-line-between-groups: true
+  selector-class-pattern: "^(?:(?:o|c|u|t|s|is|has|_|js|qa)-)?[a-z0-9]+(?:-[a-z0-9]+)*(?:__[a-z0-9]+(?:-[a-z0-9]+)*)?(?:--[a-z0-9]+(?:-[a-z0-9]+)*)?(?:\\[.+\\])?$"
+  order/properties-alphabetical-order: null
+  order/order:
+  - custom-properties
+  - dollar-variables
+  - type: at-rule
+    name: extend
+    hasBlock: false
+  - declarations
+  - type: at-rule
+    name: extend
+    hasBlock: true

@@ -2,9 +2,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
-  width: 570px;
 
   color: $white;
+
+  @include media-phone {
+    grid-template-columns: 1fr;
+  }
 }
 
 .form__input {

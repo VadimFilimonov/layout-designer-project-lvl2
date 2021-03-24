@@ -7,11 +7,22 @@
   text-transform: uppercase;
 
   list-style: none;
+
+  @include media-phone {
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
 .menu__item {
   & + & {
     margin-left: 24px;
+  }
+
+  @include media-phone {
+    & + & {
+      margin: 3px 0 0;
+    }
   }
 }
 
