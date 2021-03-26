@@ -15,5 +15,5 @@ lint:
 	npx htmlhint --config .htmlhint
 	npx stylelint ./src/scss/**/*.{scss}
 
-deploy:
+deploy: build
 	npx surge ./src
