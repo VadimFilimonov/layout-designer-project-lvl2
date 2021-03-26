@@ -4,6 +4,10 @@
   margin-bottom: 40px;
 
   text-align: center;
+
+  @include media-phone {
+    flex-wrap: wrap;
+  }
 }
 
 .pricing__item {
@@ -16,6 +20,14 @@
   background-size: cover;
 
   border-radius: 1rem;
+
+  @include media-phone {
+    width: 100%;
+
+    & + & {
+      margin-top: 50px;
+    }
+  }
 }
 
 .pricing__item--free {
@@ -37,6 +49,10 @@
   font-size: 24px;
   line-height: 1.8;
   text-transform: uppercase;
+
+  @include media-phone {
+    font-size: 16px;
+  }
 }
 
 .pricing__value {

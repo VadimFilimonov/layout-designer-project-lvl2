@@ -2,10 +2,17 @@
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 100px;
+
+  @include media-phone {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
 
 .section__text {
   margin: 0;
+
+  color: $white;
 
   font-size: 16px;
 }
