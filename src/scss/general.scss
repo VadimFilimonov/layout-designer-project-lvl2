@@ -7,12 +7,12 @@
 body {
   margin: 0;
 
-  color: #cacaca;
+  color: $dark-gray;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
 
-  background: #08020d;
+  background: $black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -53,4 +53,16 @@ h2 {
   @include media-phone {
     font-size: 18px;
   }
+}
+
+h3 {
+  font-size: 24px;
+
+  @include media-phone {
+    font-size: 16px;
+  }
+}
+
+h4 {
+  font-size: 18px;
 }
