@@ -3,8 +3,6 @@
   grid-template-columns: 1fr 1fr;
   gap: 24px;
 
-  color: $white;
-
   @include media-phone {
     grid-template-columns: 1fr;
   }

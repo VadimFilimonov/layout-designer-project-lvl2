@@ -34,6 +34,8 @@ button {
 h1 {
   margin: 0;
 
+  color: $white;
+
   font-size: 60px;
   text-transform: uppercase;
 
@@ -56,6 +58,7 @@ h2 {
 }
 
 h3 {
+  color: $white;
   font-size: 24px;
 
   @include media-phone {
@@ -64,5 +67,6 @@ h3 {
 }
 
 h4 {
+  color: $white;
   font-size: 18px;
 }
