@@ -1,0 +1,26 @@
+.app {
+  position: relative;
+
+  margin-top: 15px;
+
+  padding-right: 477px;
+
+  color: $dark-gray;
+  font-size: 16px;
+
+  @include media-phone {
+    padding-right: 0;
+  }
+}
+
+.app__image {
+  position: absolute;
+  top: -15px;
+  right: 0;
+
+  @include media-phone {
+    position: static;
+
+    margin: 0 auto;
+  }
+}

@@ -25,3 +25,16 @@
   background: $green;
   border: 0;
 }
+
+.btn-red {
+  display: inline-flex;
+  height: 53px;
+
+  font-size: 12.8px;
+
+  text-transform: none;
+
+  background: $red;
+  border-color: $red;
+  border-radius: 32px;
+}
