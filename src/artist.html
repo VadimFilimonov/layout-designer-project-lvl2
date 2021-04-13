@@ -1,15 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>layout-designer-project-lvl2 - VadimFilimonov</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/app.css">
-</head>
-<body>
-
-</body>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>layout-designer-project-lvl2 - VadimFilimonov</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="branding">
+        <img src="./images/logo.svg" alt="" />
+        <span class="branding__name">Music Box</span>
+      </div>
+      <ul class="header__menu menu">
+        <li class="menu__item">
+          <a class="menu__link" href="#">Главная</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Каталог</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Исполнители</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Контакты</a>
+        </li>
+      </ul>
+      <input class="header__search-field" placeholder="Поиск..." />
+    </header>
+    <section class="hero hero--artist" id="page-description">
+      <h1>Morten Harket</h1>
+      <div class="hero__description">24 875 поклонников</div>
+      <a class="btn btn-mix hero__btn" href="#">Микс</a>
+      <a class="btn btn-favourite hero__btn" href="#">В избранное</a>
+    </section>
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__column">
+          <h2 class="footer__title">О Нас</h2>
+          <ul class="footer__menu">
+            <li class="footer__menu-item">
+              <a class="footer__link" href="#">История компании</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__link" href="#">Карьера</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__link" href="#">Особености</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__link" href="#">Пресса</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h2 class="footer__title">Поддержка</h2>
+          <ul class="footer__menu">
+            <li class="footer__menu-item">
+              <a class="footer__link" href="#">База знаний</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__link" href="#">Тарифы</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__link" href="#">Мобильное приложение</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__link" href="#">Условия использования</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h2 class="footer__title">Контакты</h2>
+          <a class="footer__link" href="mailto:hello@music.box"
+            >hello@music.box</a
+          >
+          <p class="footer__contact">Russia, Moscow. Music Box studio</p>
+          <a class="footer__link" href="tel:74999999999">+ 7 499 999 99 99</a>
+        </div>
+        <div class="footer__column">
+          <h2 class="footer__title">Подписывайтесь</h2>
+          <a class="footer__social" href="#" aria-label="Google">
+            <img
+              class="footer__social-icon"
+              src="./images/Google+.png"
+              alt=""
+            />
+          </a>
+          <a class="footer__social" href="#" aria-label="Twitter">
+            <img
+              class="footer__social-icon"
+              src="./images/Twitter.png"
+              alt=""
+            />
+          </a>
+          <a class="footer__social" href="#" aria-label="Facebook">
+            <img
+              class="footer__social-icon"
+              src="./images/Facebook.png"
+              alt=""
+            />
+          </a>
+          <a class="footer__social" href="#" aria-label="Instagram">
+            <img
+              class="footer__social-icon"
+              src="./images/Instagram.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <ul class="footer__row footer__menu footer__menu--horizontal">
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Магазин</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Обслуживание</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Блог</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Поддержка</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>

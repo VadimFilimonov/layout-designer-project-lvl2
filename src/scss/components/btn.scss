@@ -38,3 +38,35 @@
   border-color: $red;
   border-radius: 32px;
 }
+
+.btn-mix {
+  justify-content: flex-start;
+  width: 200px;
+  height: 62px;
+  padding: 0 30px 0 67px;
+
+  font-size: 12.8px;
+
+  background-color: $purple;
+  background-image: url('../../images/play-button.svg');
+  background-repeat: no-repeat;
+  background-position: 30px 50%;
+  background-size: 20px auto;
+  border-color: $purple;
+}
+
+.btn-favourite {
+  justify-content: flex-start;
+  width: 200px;
+  height: 62px;
+  padding: 0 30px 0 67px;
+
+  font-size: 12.8px;
+
+  background-color: $red;
+  background-image: url('../../images/heart.svg');
+  background-repeat: no-repeat;
+  background-position: 30px 50%;
+  background-size: 20px auto;
+  border-color: $red;
+}
