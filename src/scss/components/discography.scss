@@ -1,0 +1,34 @@
+.discography {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px 25px;
+
+  @include media-phone {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.album {
+  display: flex;
+  flex-direction: column;
+}
+
+.album__image {
+  order: -1;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 18px;
+  object-fit: cover;
+
+  @include media-phone {
+    width: 137px;
+    height: 137px;
+  }
+}
+
+.album__name {
+  margin: 0;
+
+  font-size: 18px;
+  text-transform: none;
+}
