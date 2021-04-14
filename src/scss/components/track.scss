@@ -24,11 +24,16 @@
 
 .track__image {
   width: 55px;
+  height: 55px;
   margin-right: 15px;
+  object-fit: cover;
 }
 
 .track__name {
+  margin: 0;
+
   color: $white;
   font-weight: bold;
+  font-size: 12.8px;
   text-transform: uppercase;
 }
