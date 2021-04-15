@@ -13,7 +13,7 @@ build:
 lint:
 	npx editorconfig-checker ./src
 	npx htmlhint --config .htmlhint
-	npx stylelint ./src/scss/**/*.{scss}
+	npx stylelint ./src/scss
 
 deploy: build
 	npx surge ./src
