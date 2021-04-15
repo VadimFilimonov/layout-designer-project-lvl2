@@ -1,0 +1,38 @@
+.similars {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px 25px;
+
+  @include media-phone {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.similar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 16px;
+
+  text-align: center;
+}
+
+.similar__name {
+  margin: 0;
+
+  font-size: 18px;
+}
+
+.similar__image {
+  order: -1;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 17px;
+  object-fit: cover;
+
+  @include media-phone {
+    width: 137px;
+    height: 137px;
+  }
+}
