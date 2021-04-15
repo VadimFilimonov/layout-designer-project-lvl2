@@ -262,13 +262,23 @@ h4 {
 .footer__menu--horizontal {
   display: flex;
 }
+@media screen and (max-width: 1199px) {
+  .footer__menu--horizontal {
+    display: block;
+  }
+}
 
 .footer__menu--horizontal .footer__menu-item + .footer__menu-item {
   margin-left: 15px;
 }
+@media screen and (max-width: 1199px) {
+  .footer__menu--horizontal .footer__menu-item + .footer__menu-item {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+}
 
 .footer__link {
-  display: block;
   color: #e0e0e0;
   font-size: 16px;
   text-decoration: none;
@@ -280,8 +290,13 @@ h4 {
   font-size: 16px;
 }
 
+.footer__socials {
+  display: flex;
+}
+
 .footer__social {
-  display: inline-flex;
+  display: flex;
+  align-items: center;
 }
 .footer__social + .footer__social {
   margin-left: 24px;
@@ -389,7 +404,7 @@ h4 {
 }
 @media screen and (max-width: 1199px) {
   .hero {
-    padding-top: 250px;
+    padding-top: 225px;
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -415,6 +430,7 @@ h4 {
 }
 
 .hero__description {
+  display: block;
   margin-bottom: 16px;
   font-size: 16px;
 }
@@ -462,6 +478,7 @@ h4 {
 @media screen and (max-width: 1199px) {
   .menu {
     flex-direction: column;
+    align-items: flex-start;
     width: 100%;
   }
 }
@@ -552,7 +569,7 @@ h4 {
   width: 30.5%;
   padding: 0 1.5rem;
   color: #fff;
-  font-size: 12px;
+  font-size: 12.8px;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 1rem;
@@ -582,7 +599,6 @@ h4 {
   margin: 20px 0 200px;
   font-weight: normal;
   font-size: 24px;
-  line-height: 1.8;
   text-transform: uppercase;
 }
 @media screen and (max-width: 1199px) {
@@ -642,7 +658,6 @@ h4 {
 .similar {
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-size: 16px;
   text-align: center;
 }
@@ -656,7 +671,7 @@ h4 {
   order: -1;
   width: 250px;
   height: 250px;
-  margin-bottom: 17px;
+  margin: 0 auto 17px;
   object-fit: cover;
 }
 @media screen and (max-width: 1199px) {

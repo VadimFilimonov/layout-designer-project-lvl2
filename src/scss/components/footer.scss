@@ -57,17 +57,26 @@
 .footer__menu--horizontal {
   @extend %footer__menu--horizontal;
   display: flex;
+
+  @include media-phone {
+    display: block;
+  }
 }
 
 .footer__menu-item {
   %footer__menu--horizontal & + & {
     margin-left: 15px;
   }
+
+  @include media-phone {
+    %footer__menu--horizontal & + & {
+      margin-top: 15px;
+      margin-left: 0;
+    }
+  }
 }
 
 .footer__link {
-  display: block;
-
   color: $gray;
   font-size: 16px;
   text-decoration: none;
@@ -80,8 +89,13 @@
   font-size: 16px;
 }
 
+.footer__socials {
+  display: flex;
+}
+
 .footer__social {
-  display: inline-flex;
+  display: flex;
+  align-items: center;
 
   & + & {
     margin-left: 24px;

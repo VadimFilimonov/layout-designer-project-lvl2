@@ -36,9 +36,9 @@
     </header>
     <section class="hero hero--artist" id="page-description">
       <h1>Morten Harket</h1>
-      <div class="hero__description">24 875 поклонников</div>
-      <a class="btn btn-mix hero__btn" href="#">Микс</a>
-      <a class="btn btn-favourite hero__btn" href="#">В избранное</a>
+      <span class="hero__description">24 875 поклонников</sspan>
+      <button class="btn btn-mix hero__btn" type="button">Микс</button>
+      <button class="btn btn-favourite hero__btn" type="button">В избранное</button>
     </section>
     <section class="section section--left" id="page-popular-track">
       <h2>Популярные треки</h2>
@@ -47,42 +47,42 @@
           <img class="track__image" src="./images/Wild Seed.png" alt="">
           <div class="track__info">
             <h3 class="track__name">Spanish Step</h3>
-            <div>Morten Harket</div>
+            <span>Morten Harket</span>
           </div>
         </article>
         <article class="track" data-duration="3:48">
           <img class="track__image" src="./images/Letter from Egypt.png" alt="">
           <div class="track__info">
             <h3 class="track__name">With You - With Me</h3>
-            <div>Morten Harket</div>
+            <span>Morten Harket</span>
           </div>
         </article>
         <article class="track" data-duration="5:05">
           <img class="track__image" src="./images/Brother.png" alt="">
           <div class="track__info">
             <h3 class="track__name">Brother</h3>
-            <div>Morten Harket</div>
+            <span>Morten Harket</span>
           </div>
         </article>
         <article class="track" data-duration="4:24">
           <img class="track__image" src="./images/Wild Seed.png" alt="">
           <div class="track__info">
             <h3 class="track__name">Brodsky Tune</h3>
-            <div>Morten Harket</div>
+            <span>Morten Harket</span>
           </div>
         </article>
         <article class="track" data-duration="3:45">
           <img class="track__image" src="./images/Letter from Egypt.png" alt="">
           <div class="track__info">
             <h3 class="track__name">Darkspace</h3>
-            <div>Morten Harket</div>
+            <span>Morten Harket</span>
           </div>
         </article>
         <article class="track" data-duration="3:52">
           <img class="track__image" src="./images/Out of My Hands.png" alt="">
           <div class="track__info">
             <h3 class="track__name">Burn Money Burn</h3>
-            <div>Morten Harket</div>
+            <span>Morten Harket</span>
           </div>
         </article>
       </div>
@@ -127,12 +127,12 @@
       <div class="similars">
         <article class="similar">
           <h3 class="similar__name">A-Ha</h3>
-          <div>417 086 поклонников</div>
+          <span>417 086 поклонников</span>
           <img class="similar__image" src="./images/A-ha.png" alt="">
         </article>
         <article class="similar">
           <h3 class="similar__name">Tears For Fears</h3>
-          <div>434 086 поклонников</div>
+          <span>434 086 поклонников</span>
           <img class="similar__image" src="./images/Tears for Fears.png" alt="">
         </article>
         <article class="similar">
@@ -142,27 +142,27 @@
         </article>
         <article class="similar">
           <h3 class="similar__name">Jack Savoretti</h3>
-          <div>26 857 поклонников</div>
+          <span>26 857 поклонников</span>
           <img class="similar__image" src="./images/Jack Savoretti.png" alt="">
         </article>
         <article class="similar">
           <h3 class="similar__name">Keane</h3>
-          <div>1 704 358 поклонников</div>
+          <span>1 704 358 поклонников</span>
           <img class="similar__image" src="./images/Keane.png" alt="">
         </article>
         <article class="similar">
           <h3 class="similar__name">Frank Sinatra</h3>
-          <div>1 653 882 поклонников</div>
+          <span>1 653 882 поклонников</span>
           <img class="similar__image" src="./images/Frank Sinatra.png" alt="">
         </article>
         <article class="similar">
           <h3 class="similar__name">Paul Young</h3>
-          <div>50 329 поклонников</div>
+          <span>50 329 поклонников</span>
           <img class="similar__image" src="./images/Paul Young.png" alt="">
         </article>
         <article class="similar">
           <h3 class="similar__name">Chris Rea</h3>
-          <div>73 351 поклонников</div>
+          <span>73 351 поклонников</span>
           <img class="similar__image" src="./images/Chris Rea.png" alt="">
         </article>
       </div>
@@ -213,34 +213,36 @@
         </div>
         <div class="footer__column">
           <h2 class="footer__title">Подписывайтесь</h2>
-          <a class="footer__social" href="#" aria-label="Google">
-            <img
-              class="footer__social-icon"
-              src="./images/Google+.png"
-              alt=""
-            />
-          </a>
-          <a class="footer__social" href="#" aria-label="Twitter">
-            <img
-              class="footer__social-icon"
-              src="./images/Twitter.png"
-              alt=""
-            />
-          </a>
-          <a class="footer__social" href="#" aria-label="Facebook">
-            <img
-              class="footer__social-icon"
-              src="./images/Facebook.png"
-              alt=""
-            />
-          </a>
-          <a class="footer__social" href="#" aria-label="Instagram">
-            <img
-              class="footer__social-icon"
-              src="./images/Instagram.png"
-              alt=""
-            />
-          </a>
+          <div class="footer__socials">
+            <a class="footer__social" href="#" aria-label="Google">
+              <img
+                class="footer__social-icon"
+                src="./images/Google+.png"
+                alt=""
+              />
+            </a>
+            <a class="footer__social" href="#" aria-label="Twitter">
+              <img
+                class="footer__social-icon"
+                src="./images/Twitter.png"
+                alt=""
+              />
+            </a>
+            <a class="footer__social" href="#" aria-label="Facebook">
+              <img
+                class="footer__social-icon"
+                src="./images/Facebook.png"
+                alt=""
+              />
+            </a>
+            <a class="footer__social" href="#" aria-label="Instagram">
+              <img
+                class="footer__social-icon"
+                src="./images/Instagram.png"
+                alt=""
+              />
+            </a>
+          </div>
         </div>
         <ul class="footer__row footer__menu footer__menu--horizontal">
           <li class="footer__menu-item">
