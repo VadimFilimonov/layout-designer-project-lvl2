@@ -17,9 +17,15 @@
   text-align: center;
 
   background-image: url('../../images/banner.png');
+
+  @include media-phone {
+    padding-top: 250px;
+  }
 }
 
 .hero--artist {
+  padding-bottom: 220px;
+
   background-image: url('../../images/Morten\ Harket.png');
 }
 
@@ -39,6 +45,7 @@
   font-size: 16px;
 
   .hero--artist & {
+    margin-top: 16px;
     margin-bottom: 48px;
   }
 

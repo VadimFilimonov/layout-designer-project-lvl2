@@ -1,10 +1,10 @@
 .similars {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 50px 25px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px 50px;
 
   @include media-phone {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(137px, 1fr));
   }
 }
 
@@ -12,11 +12,14 @@
   display: flex;
   flex-direction: column;
   max-width: 250px;
-  margin: 0 auto;
 
   font-size: 16px;
 
   text-align: center;
+
+  @include media-phone {
+    max-width: 137px;
+  }
 }
 
 .similar__name {
