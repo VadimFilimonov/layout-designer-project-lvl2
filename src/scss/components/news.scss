@@ -31,31 +31,26 @@
   grid-area: content;
 }
 
-.news__author {
+.news__title {
+  margin: 0 0 30px;
+
+  @include media-phone {
+    margin: 0 0 16px;
+  }
+}
+
+.news__note {
   display: flex;
+  gap: 16px;
   align-items: center;
 
   color: $orange;
   font-size: 12.8px;
   line-height: 19px;
+}
 
-  &::before {
-    width: 19px;
-    height: 19px;
-    margin-right: 16px;
-
-    background-image: url('../../images/avatar.png');
-
-    content: '';
-  }
-
-  &::after {
-    margin-left: 16px;
-
-    color: $dark-gray;
-
-    content: attr(data-date);
-  }
+.news__date {
+  color: $dark-gray;
 }
 
 .news__btn {

@@ -86,6 +86,7 @@ h4 {
 
 .app__image {
   order: 1;
+  margin-right: 120px;
   margin-left: 144px;
 }
 @media screen and (max-width: 1199px) {
@@ -504,24 +505,26 @@ h4 {
   grid-area: content;
 }
 
-.news__author {
+.news__title {
+  margin: 0 0 30px;
+}
+@media screen and (max-width: 1199px) {
+  .news__title {
+    margin: 0 0 16px;
+  }
+}
+
+.news__note {
   display: flex;
+  gap: 16px;
   align-items: center;
   color: #f89202;
   font-size: 12.8px;
   line-height: 19px;
 }
-.news__author::before {
-  width: 19px;
-  height: 19px;
-  margin-right: 16px;
-  background-image: url("../../images/avatar.png");
-  content: "";
-}
-.news__author::after {
-  margin-left: 16px;
+
+.news__date {
   color: #cacaca;
-  content: attr(data-date);
 }
 
 .news__btn {
