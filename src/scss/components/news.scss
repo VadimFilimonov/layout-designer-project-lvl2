@@ -4,6 +4,8 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
 
+  font-size: 16px;
+
   & + & {
     grid-template-areas: 'content image';
     margin-top: 65px;
@@ -43,6 +45,7 @@
   display: flex;
   gap: 16px;
   align-items: center;
+  margin-top: 25px;
 
   color: $orange;
   font-size: 12.8px;

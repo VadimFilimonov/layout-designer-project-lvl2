@@ -2,9 +2,11 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 25px 50px;
+  padding-right: 50px;
 
   @include media-phone {
     grid-template-columns: 1fr;
+    padding-right: 0;
   }
 }
 

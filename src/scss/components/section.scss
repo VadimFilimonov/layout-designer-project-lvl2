@@ -9,14 +9,6 @@
   }
 }
 
-.section--left {
-  padding-right: 50px;
-
-  @include media-phone {
-    padding-right: 20px;
-  }
-}
-
 .section__text {
   margin: 0;
 
