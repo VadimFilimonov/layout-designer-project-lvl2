@@ -223,8 +223,8 @@ h4 {
   gap: 30px;
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 5px;
-  padding-bottom: 10px;
+  padding-top: 7px;
+  padding-bottom: 12px;
 }
 @media screen and (max-width: 1199px) {
   .footer__content {
