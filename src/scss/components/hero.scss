@@ -32,9 +32,13 @@
 
 .hero--artist {
   padding-top: 250px;
-  padding-bottom: 220px;
+  padding-bottom: 225px;
 
   background-image: url('../../images/Morten\ Harket.png');
+
+  @include media-phone {
+    padding-top: 225px;
+  }
 }
 
 .hero__subtitle {

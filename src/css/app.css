@@ -223,11 +223,14 @@ h4 {
   gap: 30px;
   max-width: 1200px;
   margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 @media screen and (max-width: 1199px) {
   .footer__content {
     grid-template-columns: 1fr;
-    padding: 0 20px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }
 
@@ -252,6 +255,9 @@ h4 {
   }
 }
 
+.footer__menu-item {
+  font-size: 16px;
+}
 .footer__menu--horizontal .footer__menu-item + .footer__menu-item {
   margin-left: 15px;
 }
@@ -419,8 +425,13 @@ h4 {
 
 .hero--artist {
   padding-top: 250px;
-  padding-bottom: 220px;
+  padding-bottom: 225px;
   background-image: url("../../images/Morten Harket.png");
+}
+@media screen and (max-width: 1199px) {
+  .hero--artist {
+    padding-top: 225px;
+  }
 }
 
 .hero__subtitle {
