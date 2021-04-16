@@ -1,7 +1,10 @@
 .section {
+  padding-top: 100px;
+}
+
+.section__content {
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 100px;
 
   @include media-phone {
     padding-right: 20px;
