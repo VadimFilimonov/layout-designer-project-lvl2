@@ -1,6 +1,7 @@
 .section {
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 100px calc((100% - #{$layout-width}) / 2) 0;
+  padding-top: 100px;
 
   @include media-phone {
     padding-right: 20px;
