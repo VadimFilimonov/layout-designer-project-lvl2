@@ -5,6 +5,7 @@
 
   @include media-phone {
     grid-template-columns: repeat(auto-fit, minmax(137px, 1fr));
+    padding-right: 50px;
   }
 }
 

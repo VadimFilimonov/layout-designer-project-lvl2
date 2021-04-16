@@ -1,5 +1,5 @@
 .hero {
-  padding: 200px calc((100% - #{$layout-width}) / 2);
+  padding: 200px 0;
 
   color: $white;
 
@@ -8,8 +8,15 @@
 
   @include media-phone {
     padding-top: 225px;
-    padding-right: 20px;
-    padding-left: 20px;
+  }
+}
+
+.hero__content {
+  max-width: $layout-width;
+  margin: 0 auto;
+
+  @include media-phone {
+    padding: 0 20px;
   }
 }
 

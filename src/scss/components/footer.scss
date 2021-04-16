@@ -56,11 +56,13 @@
 }
 
 .footer__link {
-  display: block;
-
   color: $gray;
   font-size: 16px;
   text-decoration: none;
+
+  .footer__row & {
+    display: block;
+  }
 }
 
 .footer__contact {
