@@ -149,13 +149,8 @@ h4 {
   justify-content: flex-start;
   width: 200px;
   height: 62px;
-  padding: 0 30px 0 67px;
   font-size: 12.8px;
   background-color: #5328a1;
-  background-image: url("../../images/play-button.svg");
-  background-repeat: no-repeat;
-  background-position: 30px 50%;
-  background-size: 20px auto;
   border-color: #5328a1;
 }
 
@@ -163,14 +158,14 @@ h4 {
   justify-content: flex-start;
   width: 200px;
   height: 62px;
-  padding: 0 30px 0 67px;
   font-size: 12.8px;
   background-color: #95390c;
-  background-image: url("../../images/heart.svg");
-  background-repeat: no-repeat;
-  background-position: 30px 50%;
-  background-size: 20px auto;
   border-color: #95390c;
+}
+
+.btn__image {
+  max-width: 20px;
+  margin-right: 16px;
 }
 
 .discography {
@@ -708,6 +703,11 @@ h4 {
   height: 55px;
   margin-right: 15px;
   object-fit: cover;
+}
+
+.track__info {
+  display: flex;
+  flex-direction: column;
 }
 
 .track__name {

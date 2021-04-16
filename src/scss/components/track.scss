@@ -29,6 +29,11 @@
   object-fit: cover;
 }
 
+.track__info {
+  display: flex;
+  flex-direction: column;
+}
+
 .track__name {
   margin: 0;
 
