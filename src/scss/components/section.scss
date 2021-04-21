@@ -1,10 +1,15 @@
 .section {
+  box-sizing: content-box;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 100px;
   padding-right: 20px;
   padding-left: 20px;
+
+  @include media-phone {
+    box-sizing: border-box;
+  }
 }
 
 .section__text {
