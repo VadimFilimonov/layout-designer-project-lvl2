@@ -7,6 +7,7 @@
   font-size: 16px;
 
   & + & {
+    @extend %news-next;
     grid-template-areas: 'content image';
     margin-top: 65px;
   }
@@ -27,6 +28,7 @@
 
 .news__image {
   grid-area: image;
+  width: 100%;
 }
 
 .news__content {
@@ -50,6 +52,10 @@
   color: $orange;
   font-size: 12.8px;
   line-height: 19px;
+
+  %news-next & {
+    margin-top: 15px;
+  }
 }
 
 .news__date {

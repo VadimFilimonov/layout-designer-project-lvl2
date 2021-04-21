@@ -1,6 +1,6 @@
 .footer {
   margin: 100px 0 0;
-  padding: 3rem 0 2rem;
+  padding: 60px 0 50px;
   overflow: hidden;
 
   background: linear-gradient(89.75deg, $purple 32.83%, $red 81.56%);
@@ -66,6 +66,10 @@
   text-decoration: none;
 
   .footer__row & {
+    display: block;
+  }
+
+  .footer__contact + & {
     display: block;
   }
 }

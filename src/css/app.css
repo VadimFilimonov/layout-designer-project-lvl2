@@ -89,7 +89,7 @@ h4 {
 
 .app__image {
   order: 1;
-  margin-right: 120px;
+  margin-right: 123px;
   margin-left: 144px;
 }
 @media screen and (max-width: 1199px) {
@@ -212,7 +212,7 @@ h4 {
 
 .footer {
   margin: 100px 0 0;
-  padding: 3rem 0 2rem;
+  padding: 60px 0 50px;
   overflow: hidden;
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
@@ -274,6 +274,9 @@ h4 {
   text-decoration: none;
 }
 .footer__row .footer__link {
+  display: block;
+}
+.footer__contact + .footer__link {
   display: block;
 }
 
@@ -534,6 +537,7 @@ h4 {
 
 .news__image {
   grid-area: image;
+  width: 100%;
 }
 
 .news__content {
@@ -557,6 +561,9 @@ h4 {
   color: #f89202;
   font-size: 12.8px;
   line-height: 19px;
+}
+.news + .news .news__note {
+  margin-top: 15px;
 }
 
 .news__date {
@@ -627,9 +634,9 @@ h4 {
 }
 
 .pricing__value {
-  margin: 0 0 30px;
+  margin: 0 0 25px;
   font-size: 64px;
-  line-height: 1em;
+  line-height: 1;
   text-transform: uppercase;
 }
 
