@@ -223,10 +223,12 @@ h4 {
   gap: 40px;
   max-width: 1200px;
   margin: 0 auto;
+  padding-top: 7px;
 }
 @media screen and (max-width: 1199px) {
   .footer__content {
     grid-template-columns: 1fr;
+    gap: 30px;
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -628,7 +630,7 @@ h4 {
 }
 
 .pricing__title {
-  margin: 20px 0 200px;
+  margin: 21px 0 200px;
   font-weight: normal;
   font-size: 24px;
   text-transform: uppercase;
@@ -653,7 +655,7 @@ h4 {
 }
 
 .pricing__footer {
-  margin: 65px 0;
+  margin: 64px 0;
 }
 
 .section {
