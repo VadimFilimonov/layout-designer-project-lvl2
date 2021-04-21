@@ -44,7 +44,7 @@ h1 {
 }
 
 h2 {
-  margin: 0 0 50px;
+  margin: 0 0 48px;
   color: #fff;
   font-size: 38px;
   text-align: center;
@@ -212,7 +212,7 @@ h4 {
 
 .footer {
   margin: 100px 0 0;
-  padding: 61px 0 48px;
+  padding: 3rem 0 2rem;
   overflow: hidden;
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
@@ -220,7 +220,7 @@ h4 {
 .footer__content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  gap: 40px;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -246,6 +246,7 @@ h4 {
 }
 
 .footer__menu {
+  display: block;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -640,7 +641,7 @@ h4 {
 }
 
 .pricing__value {
-  margin: 0 0 35px;
+  margin: 0 0 40px;
   font-size: 64px;
   line-height: 1;
   text-transform: uppercase;
