@@ -220,7 +220,7 @@ h4 {
 .footer__content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px 66px;
+  gap: 30px;
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 7px;
@@ -234,7 +234,14 @@ h4 {
   }
 }
 
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .footer__title {
+  width: 100%;
   margin: 0 0 15px;
   font-size: 18px;
   text-align: left;
@@ -274,9 +281,6 @@ h4 {
   text-decoration: none;
 }
 .footer__row .footer__link {
-  display: block;
-}
-.footer__contact + .footer__link {
   display: block;
 }
 
@@ -546,10 +550,12 @@ h4 {
 
 .news__title {
   margin: 0 0 30px;
+  font-size: 30px;
 }
 @media screen and (max-width: 1199px) {
   .news__title {
     margin: 0 0 16px;
+    font-size: 16px;
   }
 }
 
@@ -634,7 +640,7 @@ h4 {
 }
 
 .pricing__value {
-  margin: 0 0 25px;
+  margin: 0 0 30px;
   font-size: 64px;
   line-height: 1;
   text-transform: uppercase;

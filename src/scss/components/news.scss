@@ -38,8 +38,12 @@
 .news__title {
   margin: 0 0 30px;
 
+  font-size: 30px;
+
   @include media-phone {
     margin: 0 0 16px;
+
+    font-size: 16px;
   }
 }
 
