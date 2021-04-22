@@ -281,7 +281,9 @@ h4 {
   display: block;
 }
 .footer__contact + .footer__link {
-  line-height: 1;
+  display: block;
+  width: max-content;
+  margin-top: 3px;
 }
 
 .footer__contact {
@@ -318,6 +320,11 @@ h4 {
   height: 1px;
   background: #e0e0e0;
   content: "";
+}
+@media screen and (max-width: 1199px) {
+  .footer__row {
+    padding-right: 20px;
+  }
 }
 
 .form {
@@ -628,7 +635,7 @@ h4 {
 }
 
 .pricing__title {
-  margin: 21px 0 200px;
+  margin: 21px 0 207px;
   font-weight: normal;
   font-size: 24px;
   text-transform: uppercase;

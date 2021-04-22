@@ -74,7 +74,9 @@
   }
 
   .footer__contact + & {
-    line-height: 1;
+    display: block;
+    width: max-content;
+    margin-top: 3px;
   }
 }
 
@@ -119,5 +121,9 @@
     background: $gray;
 
     content: '';
+  }
+
+  @include media-phone {
+    padding-right: 20px;
   }
 }
