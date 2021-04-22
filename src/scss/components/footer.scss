@@ -9,10 +9,11 @@
 .footer__content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
+  gap: 30px 40px;
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 9px;
+  padding-bottom: 10px;
 
   @include media-phone {
     grid-template-columns: 1fr;
@@ -73,10 +74,20 @@
     display: block;
   }
 
+  .footer__title + & {
+    display: block;
+    width: max-content;
+    margin-bottom: 3px;
+
+    line-height: 19px;
+  }
+
   .footer__contact + & {
     display: block;
     width: max-content;
     margin-top: 3px;
+
+    line-height: 19px;
   }
 }
 
