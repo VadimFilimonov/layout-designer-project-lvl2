@@ -290,7 +290,7 @@ h4 {
 .footer__contact + .footer__link {
   display: block;
   width: max-content;
-  margin-top: 3px;
+  margin: 3px 0;
   line-height: 19px;
 }
 @media screen and (max-width: 1199px) {
@@ -316,6 +316,11 @@ h4 {
 }
 .footer__social + .footer__social {
   margin-left: 24px;
+}
+@media screen and (max-width: 1199px) {
+  .footer__social {
+    height: 30px;
+  }
 }
 
 .footer__row {

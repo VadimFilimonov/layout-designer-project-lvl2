@@ -85,7 +85,7 @@
   .footer__contact + & {
     display: block;
     width: max-content;
-    margin-top: 3px;
+    margin: 3px 0;
 
     line-height: 19px;
   }
@@ -115,6 +115,10 @@
 
   & + & {
     margin-left: 24px;
+  }
+
+  @include media-phone {
+    height: 30px;
   }
 }
 
