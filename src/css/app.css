@@ -295,7 +295,7 @@ h4 {
 }
 @media screen and (max-width: 1199px) {
   .footer__title + .footer__link {
-    margin-top: 3px;
+    margin-top: 18px;
   }
 }
 
