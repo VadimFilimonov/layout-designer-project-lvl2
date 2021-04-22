@@ -89,6 +89,12 @@
 
     line-height: 19px;
   }
+
+  @include media-phone {
+    .footer__title + & {
+      margin-top: 3px;
+    }
+  }
 }
 
 .footer__contact {

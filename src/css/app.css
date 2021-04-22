@@ -293,6 +293,11 @@ h4 {
   margin-top: 3px;
   line-height: 19px;
 }
+@media screen and (max-width: 1199px) {
+  .footer__title + .footer__link {
+    margin-top: 3px;
+  }
+}
 
 .footer__contact {
   width: 100%;
