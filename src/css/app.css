@@ -143,6 +143,7 @@ h4 {
   display: inline-flex;
   min-width: 130px;
   height: 53px;
+  padding: 16px 40px;
   font-size: 12.8px;
   text-transform: none;
   background: #95390c;
@@ -430,19 +431,24 @@ h4 {
   background-position: center;
   background-size: cover;
 }
-@media screen and (max-width: 1199px) {
-  .hero {
-    padding-top: 225px;
-  }
-}
 
 .hero__content {
   max-width: 1200px;
   margin: 0 auto;
 }
+.hero--artist .hero__content {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
 @media screen and (max-width: 1199px) {
   .hero__content {
     padding: 0 20px;
+  }
+  .hero--index .hero__content {
+    padding-top: 50px;
+  }
+  .hero--artist .hero__content {
+    padding-top: 25px;
   }
 }
 
@@ -450,21 +456,9 @@ h4 {
   text-align: center;
   background-image: url("../../images/banner.png");
 }
-@media screen and (max-width: 1199px) {
-  .hero--index {
-    padding-top: 250px;
-  }
-}
 
 .hero--artist {
-  padding-top: 250px;
-  padding-bottom: 225px;
   background-image: url("../../images/Morten Harket.png");
-}
-@media screen and (max-width: 1199px) {
-  .hero--artist {
-    padding-top: 225px;
-  }
 }
 
 .hero__subtitle {
@@ -576,6 +570,7 @@ h4 {
 
 .news__title {
   margin: 0 0 30px;
+  font-weight: 400;
   font-size: 30px;
 }
 @media screen and (max-width: 1199px) {
@@ -735,6 +730,7 @@ h4 {
 .similar__name {
   margin: 0;
   font-size: 18px;
+  text-transform: capitalize;
 }
 
 .similar__image {
