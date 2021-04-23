@@ -1,7 +1,6 @@
 extends:
   - stylelint-config-standard
   - stylelint-config-rational-order
-  - stylelint-config-sass-guidelines
   - stylelint-prettier/recommended
 
 plugins:
@@ -11,6 +10,7 @@ plugins:
   - stylelint-prettier
 
 rules:
+  at-rule-no-unknown: null
   declaration-empty-line-before: null
   order/properties-order: []
   plugin/rational-order:
