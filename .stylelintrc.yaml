@@ -6,7 +6,6 @@ plugins:
   - stylelint-order
   - stylelint-config-rational-order/plugin
   - stylelint-scss
-  - stylelint-prettier
 
 rules:
   at-rule-no-unknown: null
